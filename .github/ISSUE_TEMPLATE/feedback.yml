@@ -1,0 +1,19 @@
+name: Product feedback / Geri bildirim
+description: Share a product question, correction or suggestion.
+title: "[Feedback]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Please remove personal data from reports. / Lütfen kişisel verileri paylaşmayın."
+  - type: textarea
+    id: context
+    attributes:
+      label: Context / Konu
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: Suggestion or correction / Öneri veya düzeltme
+    validations:
+      required: true
